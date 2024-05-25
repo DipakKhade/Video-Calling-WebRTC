@@ -4,9 +4,9 @@ import Metting from "@/components/Metting";
 export default function Home() {
   return (
     <main>
+      <Header />
 
-      <Header/>
-
-      <Metting/>
-    </main>  );
+      <Metting />
+    </main>
+  );
 }
